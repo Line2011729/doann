@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang điều khiển</title>
+  <link rel="stylesheet" href="dieukhien.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button">
+  <link rel="icon" type="image/x-icon"
+    href="https://png.pngtree.com/png-clipart/20190906/original/pngtree-cartoon-girl-taking-pictures-of-png-material-on-the-school-road-png-image_4574130.jpg">
+
+</head>
+<body>
+  <div id="wrapperr">
+    <!--------------------------------Thông tin & Menu ----------------------------->
+    <div id="header1">
+      <div class="thongtin">
+        <div class="box">
+          <img src="https://cdn.glitch.global/56b13060-e2cb-4a8d-8ce5-8f28659303b3/logo.jpg?v=1681570495227" width="90" height="80">
+        </div>
+        <p>
+          Công nghệ IOT và Ứng dụng<br/>
+          Nhóm 02 - Đề tài: Giám sát và điều khiển thiết bị trong gia đình qua internet
+        </p>
+      </div>
+      <header>
+        <div class="inner-header container">
+          <a href="index.html" class="logo">NHÓM02</a>
+          <nav>
+            <ul id="main-menu">
+              <li><a href="trangchu.html">Trang chủ</a></li>
+            <li><a href="trangdanhsach.html">Danh sách thành viên</a></li>
+            <li><a href="trangdieukhien.html">Trang điều khiển</a></li>
+            <li><a href="tranglienhe.html">Liên hệ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!---------------------------------Hết Thông tin & Menu ------------------>
+      
+      <!------------------------------Nội dung trang điều khiển ---------------------------------->
+    </div>
+    <div id="noidung">
+      <h2>Trang Điều Khiển</h2>
+    </div>
+    <!------------------------------- Hết Nội dung trang điều khiển ------------------------->
+
+     <!------------------------------------Phòng 1-------------------------------->
+     <div id="phong">
+    <div id="room1">
+      <div class="tieuderoom1">
+        <h3>Phòng 1</h3>
+      </div>
+      <div id="botriroom1">
+        <div id="den1">
+        <p>Đèn 01</p>
+        <img id="den01" class="card-img-top" src="./img/denoff.png" alt="Card image" style="width: 30%;">
+        <div>
+        <button id="btnon01">ON</button>
+        <button id="btnoff01">OFF</button>
+          </div>
+      
+        </div>
+        <div id="den2">
+        <p>Đèn 02</p>
+        <img id="den02" class="card-img-top" src="./img/denoff.png" alt="Card image" style="width: 30%;">
+        <div>
+        <button id="btnon02">ON</button>
+        <button id="btnoff02">OFF</button>
+          </div>
+      
+        </div>
+        <div id="den3">
+        <p>Đèn 03</p>
+        <img id="den03" class="card-img-top" src="./img/denoff.png" alt="Card image" style="width: 30%;">
+        <div>
+        <button id="btnon03">ON</button>
+        <button id="btnoff03">OFF</button>
+        </div>
+      
+        </div>
+    </div>
+    <!--------------------------------------------QUẠT--------------------------------------->
+      <div id="quatroom1">
+        <p>Quạt </p>
+        <img id="quat01" class="card-img-top" src="./img/quatoff.png" alt="Card image" style="width: 30%;">
+        
+      </div>
+      <!--Slider-->
+      <div id="sliderContainer">
+        <input type="range" min="0" max="100" value="1" id="myRange" class="slider" >
+        <ul>
+          <li>0</li>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+        <p>Value: <span id="value"></span></p>
+        
+      </div>
+      <!---------------------------------------Hết QUẠT HẾT Slider-------------------------->
+    </div>
+    <!------------------------------------------HẾT Phòng 1--------------------------->
+
+    <!----------------------------------------Phòng 2-------------------------------------->
+    <div id="room2">
+      <div class="tieuderoom2">
+        <h3>Phòng 2</h3>
+      </div>
+      <div id="botriroom2">
+        <div id="den21">
+        <p>Đèn 01</p>
+        <img id="light1" class="card-img-top" src="./img/denoff.png" alt="Card image" style="width: 30%;">
+        <div>
+        <button id="btnon11">ON</button>
+        <button id="btnoff11">OFF</button>
+          </div>
+      
+        </div>
+        <div id="den22">
+        <p>Đèn ngủ</p>
+        <img id="light2" class="card-img-top" src="./img/denoff.png" alt="Card image" style="width: 30%;">
+        <div>
+        <button id="btnon12">ON</button>
+        <button id="btnoff12">OFF</button>
+          </div>
+      
+        </div>
+        <div id="maylanh">
+        <p>Máy lạnh</p>
+        <img id="lanh" class="card-img-top" src="./img/mistoff.png" alt="Card image" style="width: 30%;">
+        <div>
+        <button id="btnon13">ON</button>
+        <button id="btnoff13">OFF</button>
+        </div>
+      
+        </div>
+    </div>
+    <!--QUẠT-->
+      <div id="quatroom2">
+        <p>Quạt </p>
+        <img id="fan2" class="card-img-top" src="./img/quatoff.png" alt="Card image" style="width: 30%;">
+        
+      </div>
+      <!--Slider-->
+      <div id="sliderContainer1">
+        <input type="range" min="0" max="100" value="1" id="myRange2" class="slider2" >
+        <ul>
+          <li>0</li>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+        <p>Value: <span id="value2"></span></p>
+        
+      </div>
+      <!--------------------------------------Hết QUẠT HẾT Slider---------------------->
+    </div>
+    <!--HẾT Phòng 2-->
+
+  </div>
+  </div>
+  <div id="phongkhach"> 
+    <div class="tieuderoomkhac">
+        <h3>Thiết bị khác trong nhà</h3>
+      </div>
+      <div id="botriroomkhac">
+        <div id="tivi1">
+        <p>Tivi</p>
+        <img id="tivi" class="card-img-top" src="./img/tvoff.png" alt="Card image" style="width: 30%;">
+        <div>
+        <button id="btnon21">ON</button>
+        <button id="btnoff21">OFF</button>
+          </div>
+      
+        </div>
+        <div id="denphongkhach">
+        <p>Đèn </p>
+        <img id="lightkhach" class="card-img-top" src="./img/denoff.png" alt="Card image" style="width: 30%;">
+        <div>
+        <button id="btnon22">ON</button>
+        <button id="btnoff22">OFF</button>
+          </div>
+      
+        </div>
+        <div id="cong">
+        <p>Cổng rào</p>
+        <img id="congrao" class="card-img-top" src="./img/raodong.png" alt="Card image" style="width: 30%;">
+        <div>
+        <button id="btnon23">ON</button>
+        <button id="btnoff23">OFF</button>
+        </div>
+      
+        </div>
+    </div>
+
+  </div>
+  <div class="chot">
+    <p>@doanIOTnhom2 -Gvhd: NguyenVanKhanh</p>
+  </div>
+</body>
+<script type="text/javascript" src="control.js"></script>
+<script type="text/javascript" src="firebaseconfig.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database.js"></script>
+</html>

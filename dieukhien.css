@@ -1,0 +1,336 @@
+* {
+  margin:0;
+  padding:0;
+  
+  box-sizing: border-box;
+}
+/* Thông tin trên cùng */
+.thongtin {
+  background-color: #1B1C20;
+  height: 80px;
+
+}
+.box {
+  float: left;
+  wight: 140;
+  height: 80px;
+  background-color: #8A9897;
+}
+.thongtin p {
+  color: white;
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* MENU */
+ul {
+  list-style: none;
+}
+.container {
+  margin: 0px auto;
+  max-width: 960px;
+}
+h2 {
+  color: #fff;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  
+}
+header {
+  
+  top: 60px;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #f5f5f5;
+  padding: 4px 0;
+  background: #3B3C47;
+}
+.inner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul#main-menu {
+  display: flex;
+}
+ul#main-menu li {
+  padding: 0 20px;
+}
+ul#main-menu a {
+  
+  padding: 15px 20px;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+}
+/* LOGO TRÊN MENU */
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+ul#main-menu a::after {
+  content: "";
+  height: 4px;
+  width: 0px;
+  background: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+
+}
+ul#main-menu a:hover::after {
+  width: 50%;
+  transform:  translateX(55%);
+}
+
+/* trang điều khiển */
+#noidung {
+  
+  top: 60px;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid #f5f5f5;
+  padding: 3px;
+  text-align: center;
+  box-shadow: 2px 5px 5px #000;
+  
+}
+#noidung h2 {
+  font-family: Arial;
+  color: #f5f5f5;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 2px 1px 1px #000;
+}
+
+/* Phòng 1 */
+#phong{
+  display: flex;
+}
+#room1 {
+  width: 500px;
+  height: 500px;
+  background: #8A9897;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 30px;
+  box-shadow: 5px 5px 5px #000;
+}
+#tieuderoom1 {
+  font-weight: bold;
+  color: #fff;
+}
+#botriroom1 {
+  display: flex;
+  font-size: 20px;
+}
+#botriroom1 button {
+  font-size: 15px;
+  padding: 3px 5px;
+}
+#botriroom1 img {
+  margin: 20px;
+}
+#quatroom1 {
+  padding:20px 10px;
+}
+
+/* Slider room1 */
+#slideContainer {
+  width: 75%;
+ 
+
+}
+.slider {
+  -webkit-appearance:none;
+  width: 50%;
+  height: 20px;
+  background: linear-gradient(90deg, rgb(214, 214, 214) 60%, rgb(214,214,214) 60% );
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition:0.2s;
+  transition: opacity 0.2s;
+  border-radius: 12px;
+  box-shadow: 0px 1px 10px 1px #000;
+}
+.slider:hover {
+  opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance:none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#sliderContainer p {
+  margin-top: 10px;
+  opacity: 0.9;
+}
+#sliderContainer ul {
+  list-style: none;
+  display: flex;
+}
+#sliderContainer li {
+  padding: 1px 65px;
+  padding-left: 0px;
+}
+#room2 {
+  width: 500px;
+  height: 500px;
+  background: #8A9897;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 30px;
+  box-shadow: 5px 5px 5px #000;
+}
+#tieuderoom2 {
+  font-weight: bold;
+  color: #fff;
+}
+#botriroom2 {
+  display: flex;
+  font-size: 20px;
+}
+#botriroom2 button {
+  font-size: 15px;
+  padding: 3px 5px;
+}
+#botriroom2 img {
+  margin: 20px;
+}
+#quatroom2 {
+  padding:20px 10px;
+}
+
+#sliderContainer1 p {
+  margin-top: 10px;
+  opacity: 0.9;
+}
+#sliderContainer1 ul {
+  list-style: none;
+  display: flex;
+}
+#sliderContainer1 li {
+  padding: 1px 65px;
+  padding-left: 0px;
+}
+#slideContainer {
+  width: 75%;
+ 
+
+}
+.slider2 {
+  -webkit-appearance:none;
+  width: 50%;
+  height: 20px;
+  background: linear-gradient(90deg, rgb(214, 214, 214) 60%, rgb(214,214,214) 60% );
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition:0.2s;
+  transition: opacity 0.2s;
+  border-radius: 12px;
+  box-shadow: 0px 1px 10px 1px #000;
+}
+.slider2:hover {
+  opacity: 1;
+}
+.slider2::-webkit-slider-thumb {
+  -webkit-appearance:none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider2::-moz-range-thumb {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* phòng khách */
+#phongkhach {
+  width: 500px;
+  height: 500px;
+  background: #8A9897;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 30px;
+  box-shadow: 5px 5px 5px #000;
+}
+#tieuderoomkhac {
+  font-weight: bold;
+  color: #fff;
+}
+#botriroomkhac {
+  display: flex;
+  font-size: 20px;
+}
+#botriroomkhac button {
+  font-size: 15px;
+  padding: 3px 5px;
+}
+#botriroomkhac img {
+  margin: 20px;
+}
+#quatroomkhac {
+  padding:20px 10px;
+}
+.chot {
+  text-align: center;
+  color: #f5f5f5;
+  
+}
+
+/* Slideshow */
+body  {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+ @-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
